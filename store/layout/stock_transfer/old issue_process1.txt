@@ -1,0 +1,348 @@
+<!--### Header Part ##################################################-->
+<?php
+include '../template/header.php';
+?>
+<!--#####################################################-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // Add 'show' class to the element with ID "collapseLayouts2"
+    $(document).ready(function() {
+        $("#collapseLayouts3").addClass("show");
+        $("#collapseLayouts3_add").addClass("active bg-success");
+    });
+</script>
+
+
+
+            <div id="layoutSidenav_content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--main content////////////////////////////////////////////////////////////////////////////////-->
+                <main>
+                <?php
+        
+        include '../layoutdbconnection.php';
+           
+           
+           if(isset( $_GET['id'])){
+               $input =  $_GET['id'];
+                  // Prepare the SQL statement 
+                   $sql = "SELECT * FROM item i INNER JOIN category_item c ON i.c_id = c.c_id WHERE i_id = $input ";
+                   
+                   $result = mysqli_query($conn, $sql);
+                   $row = mysqli_fetch_assoc($result);
+                  
+                       
+                    
+                           $itemname=$row["i_name"];
+                           $catagory=$row["c_name"];
+                           $brand= $row["i_manufactured_by"];
+                           $size=$row["i_size"];
+                           $unit=$row["i_unit"];
+                           $price=$row["i_price"];
+
+                    $sql2= "SELECT 	qty_balance, item_issue_avg_price  FROM balance WHERE i_id = $input ";
+                    
+                    $result2 = mysqli_query($conn, $sql2);
+                    $row2 = mysqli_fetch_assoc($result2);
+                    $avg_price = $row2["item_issue_avg_price"];
+                    $stock = $row2["qty_balance"];
+
+                    
+                           
+                   } else {
+                       echo "No options found.";
+                   }
+   
+                   // Close database connection
+                   mysqli_close($conn);
+                  
+   
+       ?>
+                    <div class="container-fluid px-4">
+                    <div class="fs-3 font-weight-bold p-5" style="background: rgba(245, 39, 183, 0.30);">
+<!-- Add Product //////////////////////////////////////////////////////////////////////-->
+                    <h2 class="mt-2 mb-4 "><b>Issue Product <span class="text-success"><?php  echo '( '.$itemname.' )'; ?></span> </b></h2>
+                    
+              
+
+  <form id="submitForm" action="issue_process2.php" method="POST">
+   
+  <div class="row">
+  <!--////////////Supplier Search///////////////////////////////////////////////////////////////////////////-->
+    <div class="form-group" >
+                <div >
+                <h4 class="fs-2 font-weight-bold"><b>Select Employee</b></h4>
+                </div>
+                <input type="text" class="form-control" id="live_search" autocomplete="off" placeholder="Search..." required>
+                
+                </div>
+
+                <div id="search_result"></div>
+               
+
+                 <!-- jQuery -->
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+                    <!-- Optional Bootstrap JavaScript -->
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                        $("#live_search").keyup(function() {
+                            var input = $(this).val();
+                            if (input !== "") {
+                            $.ajax({
+                                url: "livesearch_employee.php?var=<?php echo $_GET['id']; ?>",
+                                method: "POST",
+                                data: { input: input },
+                                success: function(data) {
+                                $("#search_result").html(data);
+                                }
+                            });
+                            } else {
+                            $("#search_result").empty();
+                            }
+                        });
+                        });
+                    </script>
+
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+<!--////////////category button///////////////////////////////////////////////////////////////////////////-->
+                 <input type="hidden" name="i_id" value="<?php echo $_GET['id']; ?>">
+        
+
+    </div>
+               <div class="row">
+                <div class="col">
+                <div class="form-group">
+                   <label for="item_name">Item Name</label>
+                   <input readonly type="text" class="form-control" id="item_name" name="item_name" value="<?php  echo $itemname; ?>" placeholder="<?php  echo $itemname; ?>" required>
+               </div>
+                </div>
+
+                <div class="col">
+                <div class="form-group">
+                   <label for="brand">Brand</label>
+                   <input readonly placeholder="<?php  echo $brand; ?>" value="<?php  echo $brand; ?>" type="text" class="form-control" id="brand" name="brand" required>
+               </div>
+                </div>
+
+               </div>
+
+               <div class="row">
+               <div class="col">
+               <div class="form-group">
+                   <label for="unit">Unit</label>
+                   <input readonly placeholder="<?php  echo $unit; ?>" value="<?php  echo $unit; ?>" type="text" class="form-control" id="unit" name="unit" required>
+               </div>
+               </div>
+                
+               
+               <div class="col">
+               <div class="form-group">
+                   <label for="size">size</label>
+                   <input readonly placeholder="<?php  echo $size; ?>" value="<?php  echo $size; ?>" type="text" class="form-control" id="size" name="size" required>
+               </div>
+               </div>
+                
+               <script>
+                var price;
+                var profit;
+                var quantity;
+                var totalPrice;
+                var oldtotalprice;
+                var submit;
+                    function calculateTotal() {
+                     price = parseFloat(document.getElementById('price').value);
+                     quantity = parseFloat(document.getElementById('quantity').value);
+
+                     totalPrice = <?php echo $avg_price?> * quantity;
+                     
+                    document.getElementById('total').textContent = totalPrice.toFixed(2);
+                    oldtotalprice=   quantity *   <?php echo $price?>;
+                    profit=oldtotalprice-totalPrice;
+                    submit= <?php echo $stock?> - quantity ;
+                    
+                    // Call the function to update the placeholder value in the second script block
+                    updateProfitPlaceholder();
+                    
+
+                    }
+                    
+
+                </script>
+               
+               
+               
+            </div>
+
+            
+
+            <div class="row">
+               
+                <div class="col">
+               <div class="form-group">
+                <label for="real_price">Item price</label>
+                <input readonly placeholder="<?php  echo $price; ?>" value="<?php  echo $price; ?>" type="number" class="form-control" id="real_price" name="real_price" step="0.01" min="0" oninput="calculateTotal()" required>
+               </div>
+               </div>
+          
+               
+                <div class="col">
+               <div class="form-group">
+                <label for="price">Avrage</label>
+                <input  readonly placeholder="<?php  echo $avg_price; ?>" value="<?php  echo $avg_price; ?>" type="number" class="form-control" id="price" name="price" step="0.01" min="0" oninput="calculateTotal()" required>
+               </div>
+               </div>
+             
+             
+               
+
+                   
+                   
+
+
+                   <div class="col">
+                        <div class="form-group">
+                            <label for="profit">Stock</label>
+                            <input readonly type="number" class="form-control" id="stock" name="stock" placeholder="<?php echo $stock; ?>" required>
+                        </div>
+                        </div>
+
+
+                   
+
+                 
+               
+
+            </div>
+            
+            <div class="row">
+
+
+            <div class="col">
+                   <div class="form-group">
+                   <label for="quantity">Quantity</label>
+                   <input type="number" class="form-control" id="quantity" name="quantity" min="0" oninput="calculateTotal()" required>
+                   </div>
+                   </div>
+            
+            
+                  
+                    <div class="col">
+                   <div class="form-group">                  
+                    <label for="total">Total Price:</label>
+                    <span class="form-control" id="total"></span>                    
+                   </div>
+                   </div>
+                
+
+                   
+
+                   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                   
+                   <script>
+                    var myVariable;
+                    var myVariable1;
+
+                    function updateProfitPlaceholder() {
+                        myVariable = profit;
+                        myVariable1 = submit;
+                        $(document).ready(function() {
+                        // Set the placeholder value
+                        $('#profit').attr('placeholder', myVariable);
+                        $('#profit').attr('value', myVariable);
+                        $('#value').attr('placeholder', myVariable1);
+                        if (myVariable1 < 0) {
+                        // Remove the submit button
+                        //$('#submitBtn').remove();
+                         $("#submitBtn").hide();
+
+                        // Show a message
+                        $('#message').text("Quantity must less then stock");
+                                    }else { $("#submitBtn").show(); 
+                                            $('#message').text("");
+                                    }
+                        });
+                    }
+                    </script>
+
+                
+            <div class="col">
+               <div class="form-group">
+                   <label for="profit">profit</label>
+                   <input readonly type="text" class="form-control" id="profit" name="profit" required>
+               </div>
+               </div>
+             
+               
+                <div class="col">
+               <div class="form-group">
+                   <label for="value">Remaining Stock</label>
+                   <input readonly type="text" class="form-control" id="value" name="value" required>
+               </div>
+               </div>
+            </div>
+            
+               
+                <div class="row">
+                <?php 
+                date_default_timezone_set('Asia/Dhaka');
+                $defaultDateTime = date('Y-m-d H:i:s');
+                ?>
+                
+                <div class="form-group">
+                   <label for="item_add_date" class="col-sm-2 col-form-label">Add Date Time</label>
+                   <div class="col-sm-10">
+                   <input readonly type="datetime-local" class="form-control" id="item_add_date" name="item_add_date" placeholder="<?php echo $defaultDateTime; ?>" value="<?php echo $defaultDateTime; ?>" required>
+                   </div>
+                </div>
+                   
+            
+
+            
+                   
+
+            </div>   
+               
+               
+               
+               
+               
+               
+               
+               
+              <div id="container"></div>
+               <button id="submitBtn" type="submit" class="btn btn-primary">Submit</button>
+               <b><h4 id="message" class="bg-danger text-white"></h4></b>
+               
+               
+               
+           </form>
+
+           
+
+
+
+                    </div>
+                </main>
+<!--main content//////////////////////////////////////////////////////////////////////////////////-->
+
+<!--###### Footer Part ###############################################-->
+<?php
+include '../template/footer.php';
+?>
+<!--#####################################################-->

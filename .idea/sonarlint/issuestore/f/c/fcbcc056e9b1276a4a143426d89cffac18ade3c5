@@ -1,0 +1,45 @@
+
+QWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(º•á“8øÒìí±1
+VWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(Ÿ½¨ğùÿÿÿÿ8øÒìí±1
+QWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(òøÃ´8øÒìí±1
+QWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(Ø†ªù8øÒìí±1
+QWeb:AvoidCommentedOutCodeCheck’"Remove this commented out code.(‹ü­½8ùÒìí±1
+QWeb:AvoidCommentedOutCodeCheck“"Remove this commented out code.(Æ£°”8ùÒìí±1
+QWeb:AvoidCommentedOutCodeCheck”"Remove this commented out code.(‹ü­½8ùÒìí±1
+QWeb:AvoidCommentedOutCodeCheck•"Remove this commented out code.(‹ü­½8úÒìí±1
+UWeb:TableWithoutCaptionCheck»" Add a description to this table.(ÿ®°¼ùÿÿÿÿ8ñí°ï±1
+t Web:TableHeaderHasIdOrScopeCheck¾";Add either an 'id' or a 'scope' attribute to this <th> tag.(íü´ıÿÿÿÿ8ñí°ï±1
+t Web:TableHeaderHasIdOrScopeCheck¿";Add either an 'id' or a 'scope' attribute to this <th> tag.(æ¾ä¡øÿÿÿÿ8òí°ï±1
+o Web:TableHeaderHasIdOrScopeCheckÀ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ºƒ³‘8òí°ï±1
+o Web:TableHeaderHasIdOrScopeCheckÁ";Add either an 'id' or a 'scope' attribute to this <th> tag.(¶¢Ñé8òí°ï±1
+o Web:TableHeaderHasIdOrScopeCheckÂ";Add either an 'id' or a 'scope' attribute to this <th> tag.(­€Ğì8òí°ï±1
+n Web:TableHeaderHasIdOrScopeCheckÃ";Add either an 'id' or a 'scope' attribute to this <th> tag.(¤™Â/8òí°ï±1
+o Web:TableHeaderHasIdOrScopeCheckÄ";Add either an 'id' or a 'scope' attribute to this <th> tag.(äöØÔ8òí°ï±1
+t Web:TableHeaderHasIdOrScopeCheckÅ";Add either an 'id' or a 'scope' attribute to this <th> tag.(Š’ˆïıÿÿÿÿ8òí°ï±1
+t Web:TableHeaderHasIdOrScopeCheckÊ";Add either an 'id' or a 'scope' attribute to this <th> tag.(íü´ıÿÿÿÿ8òí°ï±1
+t Web:TableHeaderHasIdOrScopeCheckË";Add either an 'id' or a 'scope' attribute to this <th> tag.(æ¾ä¡øÿÿÿÿ8òí°ï±1
+o Web:TableHeaderHasIdOrScopeCheckÌ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ºƒ³‘8òí°ï±1
+o Web:TableHeaderHasIdOrScopeCheckÍ";Add either an 'id' or a 'scope' attribute to this <th> tag.(¶¢Ñé8òí°ï±1
+o Web:TableHeaderHasIdOrScopeCheckÎ";Add either an 'id' or a 'scope' attribute to this <th> tag.(­€Ğì8òí°ï±1
+n Web:TableHeaderHasIdOrScopeCheckÏ";Add either an 'id' or a 'scope' attribute to this <th> tag.(¤™Â/8òí°ï±1
+o Web:TableHeaderHasIdOrScopeCheckĞ";Add either an 'id' or a 'scope' attribute to this <th> tag.(äöØÔ8òí°ï±1
+t Web:TableHeaderHasIdOrScopeCheckÑ";Add either an 'id' or a 'scope' attribute to this <th> tag.(Š’ˆïıÿÿÿÿ8òí°ï±1
+a	php:S1131`"@Remove the useless trailing whitespaces at the end of this line.(ò­¤ûıÿÿÿÿ8öüÇî±1
+\	php:S1131p"@Remove the useless trailing whitespaces at the end of this line.(Äı²“8öüÇî±1
+\	php:S1131q"@Remove the useless trailing whitespaces at the end of this line.(›­æò8öüÇî±1
+b	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ò­¤ûıÿÿÿÿ8öüÇî±1
+]	php:S1131¨"@Remove the useless trailing whitespaces at the end of this line.(‰Ì§â8ïéøî±1
+Xphp:S105"EReplace all tab characters in this file by sequences of white-spaces.8å»÷î±1
+ephp:S103"KSplit this 180 characters long line (which is greater than 120 authorized).(œ…8öüÇî±1
+kphp:S103"KSplit this 170 characters long line (which is greater than 120 authorized).(Çíô»üÿÿÿÿ8öüÇî±1
+gphp:S103“"KSplit this 131 characters long line (which is greater than 120 authorized).(Æ£°”8öüÇî±1
+:php:S113"'Add a new line at the end of this file.8öüÇî±1
+B	php:S2003"&Replace "include" with "include_once".(¸§Ëä8öüÇî±1
+B	php:S2003"&Replace "include" with "include_once".(¤ÈÚ–8öüÇî±1
+C	php:S2003¡"&Replace "include" with "include_once".(ûŸÉÈ8öüÇî±1
+H	php:S2003ì"&Replace "include" with "include_once".(³² úÿÿÿÿ8öüÇî±1
+@php:S125­"Remove this commented out code.(ªûÍ”üÿÿÿÿ8öüÇî±1
+h	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(¸§Ëä8öüÇî±1
+h	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(¤ÈÚ–8÷üÇî±1
+i	php:S4833¡"LReplace "include" with namespace import mechanism through the "use" keyword.(ûŸÉÈ8÷üÇî±1
+n	php:S4833ì"LReplace "include" with namespace import mechanism through the "use" keyword.(³² úÿÿÿÿ8÷üÇî±1

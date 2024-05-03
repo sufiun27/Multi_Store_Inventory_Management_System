@@ -1,0 +1,7 @@
+
+U	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ˆ¤ˆä
+7	php:S1780$"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ
+3php:S113"'Add a new line at the end of this file.
+@	php:S2003"&Replace "include" with "include_once".(ƒ‹¾ƒúÿÿÿÿ
+J	php:S6600"0Remove the parentheses from this "include" call.(ƒ‹¾ƒúÿÿÿÿ
+f	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(ƒ‹¾ƒúÿÿÿÿ

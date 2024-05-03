@@ -1,0 +1,10 @@
+
+Z	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ÖÄç§şÿÿÿÿ
+U	php:S1131	"@Remove the useless trailing whitespaces at the end of this line.(‹ö­
+U	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(–±Ù
+7	php:S17808"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ
+3php:S113"'Add a new line at the end of this file.
+@	php:S2003"&Replace "include" with "include_once".(¬Ô‰ºıÿÿÿÿ
+3php:S125"Remove this commented out code.(–±Ù
+3php:S125"Remove this commented out code.(–±Ù
+f	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(¬Ô‰ºıÿÿÿÿ

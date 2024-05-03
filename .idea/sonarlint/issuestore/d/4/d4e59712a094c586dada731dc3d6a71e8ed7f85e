@@ -1,0 +1,27 @@
+
+NWeb:AvoidCommentedOutCodeCheck/"Remove this commented out code.(Ë¬ê¯úÿÿÿÿ
+U	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(•İ±Ï
+U	php:S11312"@Remove the useless trailing whitespaces at the end of this line.(­ãÆ¯
+U	php:S11315"@Remove the useless trailing whitespaces at the end of this line.(–ÍÔ‘
+Z	php:S11318"@Remove the useless trailing whitespaces at the end of this line.(ŒşäÕøÿÿÿÿ
+Z	php:S1131J"@Remove the useless trailing whitespaces at the end of this line.(¼¡™¬ÿÿÿÿÿ
+Z	php:S1131w"@Remove the useless trailing whitespaces at the end of this line.(›úÀ¢øÿÿÿÿ
+_php:S103"KSplit this 255 characters long line (which is greater than 120 authorized).(•İ±Ï
+dphp:S103/"KSplit this 144 characters long line (which is greater than 120 authorized).(Ë¬ê¯úÿÿÿÿ
+_php:S1034"KSplit this 131 characters long line (which is greater than 120 authorized).(¨©Ó¼
+dphp:S103W"KSplit this 179 characters long line (which is greater than 120 authorized).(ÕÆÍûÿÿÿÿ
+^php:S103["KSplit this 181 characters long line (which is greater than 120 authorized).(Øû0
+_php:S103_"KSplit this 179 characters long line (which is greater than 120 authorized).(Å§‡²
+_php:S103`"KSplit this 160 characters long line (which is greater than 120 authorized).(«Óì‡
+dphp:S103f"KSplit this 243 characters long line (which is greater than 120 authorized).(¬ÖÂ¦úÿÿÿÿ
+_php:S103g"KSplit this 127 characters long line (which is greater than 120 authorized).(‡Ò›
+dphp:S103w"KSplit this 259 characters long line (which is greater than 120 authorized).(›úÀ¢øÿÿÿÿ
+3php:S113"'Add a new line at the end of this file.
+D	php:S1109X"/Move this closing curly brace to the next line.(Î…”ù
+D	php:S1109\"/Move this closing curly brace to the next line.(Î…”ù
+;	php:S2003"&Replace "include" with "include_once".(¸§Ëä
+;	php:S20032"&Replace "include" with "include_once".(­ãÆ¯
+@	php:S2003{"&Replace "include" with "include_once".(³² úÿÿÿÿ
+a	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(¸§Ëä
+a	php:S48332"LReplace "include" with namespace import mechanism through the "use" keyword.(­ãÆ¯
+f	php:S4833{"LReplace "include" with namespace import mechanism through the "use" keyword.(³² úÿÿÿÿ

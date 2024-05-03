@@ -1,0 +1,5 @@
+
+jphp:S116"QRename this field "$db_name" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(—Íºæøÿÿÿÿ
+P	php:S1185"6Remove this method "__construct" to simply inherit it.(éúÜÅûÿÿÿÿ
+@	php:S2003	"&Replace "include" with "include_once".(£¸ºœüÿÿÿÿ
+f	php:S4833	"LReplace "include" with namespace import mechanism through the "use" keyword.(£¸ºœüÿÿÿÿ

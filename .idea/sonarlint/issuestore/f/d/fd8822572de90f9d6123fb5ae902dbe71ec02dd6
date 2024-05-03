@@ -1,0 +1,22 @@
+
+TWeb:TableWithoutCaptionCheck," Add a description to this table.(ÿ®°¼ùÿÿÿÿ8«ãüñ±1
+NWeb:AvoidCommentedOutCodeCheck6"Remove this commented out code.(èìÂşÿÿÿÿ
+a	php:S11314"@Remove the useless trailing whitespaces at the end of this line.(È“„ıÿÿÿÿ8“Îíà²1
+\	php:S1131E"@Remove the useless trailing whitespaces at the end of this line.(­ãÆ¯8“Îíà²1
+\	php:S1131F"@Remove the useless trailing whitespaces at the end of this line.(öûÃÍ8“Îíà²1
+Xphp:S105"EReplace all tab characters in this file by sequences of white-spaces.8“Îíà²1
+kphp:S103t"KSplit this 137 characters long line (which is greater than 120 authorized).(Ú¶¡àøÿÿÿÿ8”Îíà²1
+fphp:S103}"KSplit this 134 characters long line (which is greater than 120 authorized).(å†Û™8”Îíà²1
+lphp:S103ƒ"KSplit this 136 characters long line (which is greater than 120 authorized).(Ï¿®øÿÿÿÿ8”Îíà²1
+:php:S113"'Add a new line at the end of this file.8”Îíà²1
+h	php:S1192h"GDefine a constant instead of duplicating this literal "</td>" 10 times.(­şıÿÿÿÿ8•Îíà²1
+L	php:S1109€"/Move this closing curly brace to the next line.(Î…”ù8•Îíà²1
+L	php:S1109†"/Move this closing curly brace to the next line.(Î…”ù8•Îíà²1
+B	php:S2003"&Replace "include" with "include_once".(¸§Ëä8•Îíà²1
+B	php:S2003E"&Replace "include" with "include_once".(­ãÆ¯8•Îíà²1
+H	php:S2003Å"&Replace "include" with "include_once".(³² úÿÿÿÿ8•Îíà²1
+:php:S125f"Remove this commented out code.(ºÊçû8•Îíà²1
+:php:S125p"Remove this commented out code.(ˆ†¬‘8•Îíà²1
+h	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(¸§Ëä8•Îíà²1
+h	php:S4833E"LReplace "include" with namespace import mechanism through the "use" keyword.(­ãÆ¯8•Îíà²1
+n	php:S4833Å"LReplace "include" with namespace import mechanism through the "use" keyword.(³² úÿÿÿÿ8•Îíà²1

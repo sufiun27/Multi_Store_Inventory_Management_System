@@ -1,0 +1,7 @@
+
+>	php:S1780/"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ÿñ‰à²1
+	php:S1192"oDefine a constant instead of duplicating this literal "Location: adduser_Department_list.php?massage=" 3 times.(í ·¹üÿÿÿÿ8€ò‰à²1
+B	php:S2003
+"&Replace "include" with "include_once".(­ãÆ¯8€ò‰à²1
+h	php:S4833
+"LReplace "include" with namespace import mechanism through the "use" keyword.(­ãÆ¯8€ò‰à²1

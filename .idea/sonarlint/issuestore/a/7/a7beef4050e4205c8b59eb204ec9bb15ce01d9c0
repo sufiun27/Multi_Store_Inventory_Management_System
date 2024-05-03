@@ -1,0 +1,13 @@
+
+7	php:S1780~"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ
+uphp:S117"\Rename this local variable "$user_info" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ïºéÌÿÿÿÿÿ
+_	php:S1126E"EReplace this "if-then-else" statement by a single "return" statement.(Ôé¬Èıÿÿÿÿ
+B	php:S1125^"(Remove the literal "true" boolean value.(ó„Ìšûÿÿÿÿ
+|	php:S1488"bImmediately return this expression instead of assigning it to the temporary variable "$user_info".(ïºéÌÿÿÿÿÿ
+;	php:S2003"&Replace "include" with "include_once".(Û©²
+3php:S125_"Remove this commented out code.(ğÿ¥Î
+2php:S125c"Remove this commented out code.(Ããóm
+8php:S125h"Remove this commented out code.(çŸøàÿÿÿÿÿ
+3php:S125p"Remove this commented out code.(¡Øäş
+a	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(Û©²
+1	php:S2010t"Replace "or" with "||".(Š¸—Áÿÿÿÿÿ

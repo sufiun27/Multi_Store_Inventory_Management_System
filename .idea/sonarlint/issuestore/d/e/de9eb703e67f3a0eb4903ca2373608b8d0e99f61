@@ -1,0 +1,14 @@
+
+fphp:S103O"KSplit this 136 characters long line (which is greater than 120 authorized).(¡ÓÆ®8¤»à²1
+fphp:S103T"KSplit this 134 characters long line (which is greater than 120 authorized).(Ç®à©8¤»à²1
+fphp:S103Y"KSplit this 136 characters long line (which is greater than 120 authorized).(î«¸‚8¤»à²1
+fphp:S103Z"KSplit this 129 characters long line (which is greater than 120 authorized).(Š©Ê8¤»à²1
+kphp:S103v"KSplit this 130 characters long line (which is greater than 120 authorized).(Ş©†ƒşÿÿÿÿ8¤»à²1
+x	php:S1192G"WDefine a constant instead of duplicating this literal "</td>
+            <td>" 3 times.(¬Í’¸üÿÿÿÿ8¤»à²1
+B	php:S2003"&Replace "include" with "include_once".(¸§Ëä8¤»à²1
+B	php:S20031"&Replace "include" with "include_once".(­ãÆ¯8¤»à²1
+G	php:S2003}"&Replace "include" with "include_once".(³² úÿÿÿÿ8¤»à²1
+h	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(¸§Ëä8¤»à²1
+h	php:S48331"LReplace "include" with namespace import mechanism through the "use" keyword.(­ãÆ¯8¤»à²1
+m	php:S4833}"LReplace "include" with namespace import mechanism through the "use" keyword.(³² úÿÿÿÿ8¤»à²1

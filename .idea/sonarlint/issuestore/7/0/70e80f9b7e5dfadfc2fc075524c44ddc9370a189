@@ -1,0 +1,31 @@
+
+NWeb:TableWithoutCaptionCheckN" Add a description to this table.(íÊğ28Ñ€Ÿò±1
+U	php:S1131d"@Remove the useless trailing whitespaces at the end of this line.(¼Ëè…
+Z	php:S1131e"@Remove the useless trailing whitespaces at the end of this line.(áúÄ¥ùÿÿÿÿ
+U	php:S1131f"@Remove the useless trailing whitespaces at the end of this line.(å“‰½
+Z	php:S1131g"@Remove the useless trailing whitespaces at the end of this line.(Çò’›üÿÿÿÿ
+U	php:S1131h"@Remove the useless trailing whitespaces at the end of this line.(¥à
+Z	php:S1131k"@Remove the useless trailing whitespaces at the end of this line.(Ö¾¼ùÿÿÿÿ
+T	php:S1131l"@Remove the useless trailing whitespaces at the end of this line.(ù‚ïl
+dphp:S103n"KSplit this 131 characters long line (which is greater than 120 authorized).(Ëß¸‹üÿÿÿÿ
+`php:S103‰"KSplit this 188 characters long line (which is greater than 120 authorized).(¿Ü÷ÿ
+_php:S103Œ"KSplit this 203 characters long line (which is greater than 120 authorized).(Ôì»'
+ephp:S103•"KSplit this 182 characters long line (which is greater than 120 authorized).(¨œìğûÿÿÿÿ
+`php:S103Ø"KSplit this 174 characters long line (which is greater than 120 authorized).(Ç’àñ
+ephp:S103İ"KSplit this 139 characters long line (which is greater than 120 authorized).(²ß×šüÿÿÿÿ
+`php:S103â"KSplit this 180 characters long line (which is greater than 120 authorized).(¥Š‘«
+`php:S103ã"KSplit this 122 characters long line (which is greater than 120 authorized).(Çªæ´
+ephp:S103ş"KSplit this 152 characters long line (which is greater than 120 authorized).(ûÖôÀşÿÿÿÿ
+ephp:S103‡"KSplit this 190 characters long line (which is greater than 120 authorized).(â–£¨ùÿÿÿÿ
+[	php:S1192v"FDefine a constant instead of duplicating this literal "</td>" 8 times.(Æô¸ó
+Š	php:S1192Ê"tDefine a constant instead of duplicating this literal "</td>
+                                        <td>" 4 times.(Ğ¾Œª
+;	php:S2003"&Replace "include" with "include_once".(¸§Ëä
+;	php:S2003a"&Replace "include" with "include_once".(­ãÆ¯
+A	php:S2003¤"&Replace "include" with "include_once".(³² úÿÿÿÿ
+9php:S125‡"Remove this commented out code.(â–£¨ùÿÿÿÿ
+a	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(¸§Ëä
+a	php:S4833a"LReplace "include" with namespace import mechanism through the "use" keyword.(­ãÆ¯
+g	php:S4833¤"LReplace "include" with namespace import mechanism through the "use" keyword.(³² úÿÿÿÿ
+-	php:S2010”"Replace "and" with "&&".(Ã·ª^
+3	php:S2010İ"Replace "and" with "&&".(²ß×šüÿÿÿÿ

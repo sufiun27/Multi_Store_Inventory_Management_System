@@ -1,0 +1,5 @@
+
+7	php:S1780*"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ
+ƒ	php:S1192"bDefine a constant instead of duplicating this literal "Location: adduser_list.php?value=" 4 times.(Ä·‚­ıÿÿÿÿ8÷Ì¾²1
+;	php:S2003"&Replace "include" with "include_once".(­ãÆ¯
+a	php:S4833"LReplace "include" with namespace import mechanism through the "use" keyword.(­ãÆ¯

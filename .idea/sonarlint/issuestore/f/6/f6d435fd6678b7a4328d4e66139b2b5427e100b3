@@ -1,0 +1,7 @@
+
+>	php:S17800"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ8ã´§à²1
+mphp:S117	"RRename this parameter "$s_id" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÚÁ¸È8ã´§à²1
+[	php:S1481":Remove this unused "$deleteProcessMessage" local variable.(Ì™Ú¤ùÿÿÿÿ8äÃ´à²1
+[	php:S1603	"?Replace this function name "deleteSupplier" with "__construct".(ÚÁ¸È8ã´§à²1
+B	php:S2003"&Replace "require" with "require_once".(È†âæ8ã´§à²1
+h	php:S4833"LReplace "require" with namespace import mechanism through the "use" keyword.(È†âæ8ã´§à²1

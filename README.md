@@ -1,5 +1,5 @@
 # Multi-Store Inventory Management System
-# Baed on : Object-oriented PHP, Bootstrap framework, AJAX, and JavaScript.<br>
+# Based on : Object-oriented PHP, Bootstrap framework, AJAX, and JavaScript.<br>
 
 Welcome to our Multi-Store Inventory Management System! This robust solution is designed to enhance security through domain authentication, ensuring that external users from other companies cannot access the system.
 >That can handle multiple factory sub-stores inventory from one application. <br>
@@ -51,3 +51,5 @@ The system generates a variety of reports, including:
 ## Conclusion
 
 Our Multi-Store Inventory Management System is tailored to meet your diverse needs, providing a comprehensive and secure solution for efficient inventory management.
+
+![alt text](./README/1.png)

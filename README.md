@@ -1,10 +1,10 @@
 # Multi-Store Inventory Management System
 # Based on : Object-oriented PHP, Bootstrap framework, AJAX, and JavaScript.<br>
 ## Developed By
->Abu Sufiun
->abusufiun27@gmail.com
->+880 1878 000 675
->Application Development - Officer - Hop Lun 
+>Abu Sufiun<br>
+>abusufiun27@gmail.com<br>
+>+880 1878 000 675<br>
+>Application Development - Officer - Hop Lun <br>
 ![alt text](./README/1.png)
 
 Welcome to our Multi-Store Inventory Management System! This robust solution is designed to enhance security through domain authentication, ensuring that external users from other companies cannot access the system.

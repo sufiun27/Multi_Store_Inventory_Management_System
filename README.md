@@ -59,3 +59,12 @@ The system generates a variety of reports, including:
 Our Multi-Store Inventory Management System is tailored to meet your diverse needs, providing a comprehensive and secure solution for efficient inventory management.
 
 
+# Graphical view of Store Inventory
+-<b>Dashboard:</b> from dashboard we can view current balance and other information’s.
+
+![alt text](./README/dashbrd.png)
+
+<b>Employee Section:</b> we can manage department, employees also can be edit active/inactive
+
+![alt text](./README/employee1.png)
+![alt text](./README/employee2.png)
